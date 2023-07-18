@@ -1,6 +1,76 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Work Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
 }
+
+/* variables */
+:root {
+  --text-gray: #534c64;
+  --background-primary: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  --background-secondary: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
+  --text-dark: #0b0223;
+  --title-font-size: 3rem;
+}
+
+/* nav related styles */
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  padding: 2rem 8rem;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+}
+
+.logo-title {
+    font-size: 2rem;
+}
+
+.color-pink {
+    color: #f948b2;
+}
+
+.logo-img {
+  width: 30%;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  list-style-type: none;
+}
+
+.nav-item {
+  text-decoration: none;
+  color: #3c354f;
+  font-weight: 600;
+}
+
+.nav-social-icon-box {
+  display: flex;
+  gap: 0.8rem;
+  align-items: center;
+  border-radius: 8px;
+  background: rgba(11, 2, 35, 0.1);
+  padding: 0.7rem 1.5rem;
+}
+
+/* icons styles */
+.fa-youtube,
+.fa-tiktok {
+  font-size: 1.3rem;
+}
+
+.fa-youtube {
+    color: red;
+}
+/* nav related styles ends */
