@@ -308,3 +308,32 @@
 }
 /* career section related styles ends */
 
+
+/* game icon related styles  */
+
+.icon-container {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 5rem 7rem;
+}
+
+.icon-box {
+  display: flex;
+  width: 19%;
+  gap: 0.7rem;
+  align-items: center;
+  border-radius: 50px;
+}
+
+.icon-title {
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+
+.icon-img {
+  width: 22%;
+}
+/* game icon related styles ends */
+
