@@ -42,6 +42,7 @@
   text-transform: uppercase;
   font-weight: 600;
   margin: 1rem 1rem 0 0;
+  transition: all 0.2s ease-in-out
 }
 
 /* shared hover styles */
@@ -72,8 +73,25 @@
   color: #f948b2;
   cursor: pointer;
 }
-/* shared hover styles ends */
 
+.nav-item:hover {
+  color: #f948b2;
+}
+
+.btn-primary:hover {
+  background-color: #ee1396;
+  cursor: pointer;
+}
+
+.btn-blue:hover {
+  background-color: #2a98c7;
+}
+
+.btn-career:hover {
+  color: #fff;
+  background-color: #b50c71;
+}
+/* shared hover styles ends */
 
 /* shared styles ends */
 
@@ -116,6 +134,7 @@
   text-decoration: none;
   color: #3c354f;
   font-weight: 600;
+  transition: color 0.1s ease-in-out;
 }
 
 .nav-social-icon-box {
@@ -169,6 +188,11 @@
   color: var(--text-gray);
   margin: 0.5rem 0;
   font-weight: 600;
+}
+
+.banner-icon {
+  margin-right: 0.5rem;
+  color: #f948b2;
 }
 
 .btn-blue {
