@@ -1,1 +1,46 @@
-ECHO is on.
+/* Responsive layout- media queries */
+
+/* for mobile devices */
+@media screen and (max-width: 576px) {
+    .nav-container, .nav-item-container {
+        flex-direction: column;
+    }
+
+    .nav-container {
+        gap: 2rem;
+        margin-top: 1rem;
+    }
+    .nav-item-container {
+        gap: 1.5rem;
+    }
+    .nav-social-icon-box {
+        width: 195px;
+        gap: 0.5rem;
+        padding: 0.7rem 1rem;
+    }
+    .logo-container {
+        justify-content: center;
+    }
+
+    .banner-container {
+        flex-direction: column-reverse;
+        padding: 1rem;
+    }
+    .banner-second-title {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .primary-title  {
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .banner-img {
+        width: 80%;
+    }
+    
+    .banner-content-container {
+        margin-top: 5rem;
+    }
+}
