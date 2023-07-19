@@ -248,7 +248,7 @@
 
 .play-section-two {
   flex-direction: row-reverse;
-  margin-top: 10rem
+  margin-top: 7rem
 }
 
 .play-section-two-content {
@@ -260,3 +260,51 @@
   margin: -10rem 38rem 0 0;
 }
 /* play instantly section related styles ends */
+
+/* career section related styles */
+.career-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color:#f948b2;
+  color: #fff;
+  padding-left: 6rem;
+  margin-top: 5rem;
+}
+
+.career-img {
+  width: 49%;
+}
+
+.career-title {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.career-desc {
+  margin: 1.5rem 0;
+  font-size: 0.8rem;
+  font-weight: 400;
+  width: 70%;
+}
+
+.career-list-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5rem;
+}
+
+
+.list-of-country {
+  text-align: right;
+}
+.career-item {
+  list-style-type: none;
+}
+
+.btn-career {
+  background-color: #fff;
+  color:#f948b2 ;
+}
+/* career section related styles ends */
+
