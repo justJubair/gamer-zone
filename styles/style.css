@@ -91,6 +91,11 @@
   color: #fff;
   background-color: #b50c71;
 }
+
+.footer-icon:hover {
+  color: var(--text-gray);
+  cursor: pointer;
+}
 /* shared hover styles ends */
 
 /* shared styles ends */
@@ -440,6 +445,7 @@
 
 .footer-icon {
   font-size: 1.7rem;
+  transition: all 0.1s ease-in-out;
 }
 
 .fb {
