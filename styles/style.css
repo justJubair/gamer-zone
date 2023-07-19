@@ -64,6 +64,13 @@
 }
 .overlay-content:hover {
   opacity: 1;
+  cursor: pointer;
+}
+
+.icon-box:hover {
+  border: 1px solid #f948b2;
+  color: #f948b2;
+  cursor: pointer;
 }
 /* shared hover styles ends */
 
@@ -354,6 +361,7 @@
   gap: 0.7rem;
   align-items: center;
   border-radius: 50px;
+  transition: all 0.3s ease-in-out;
 }
 
 .icon-title {
