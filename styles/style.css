@@ -16,36 +16,35 @@
 
 /* shared styles */
 .secondary-title {
-   color: var(--text-dark);
-   font-size: var(--title-font-size);
-   font-weight: 600; 
+  color: var(--text-dark);
+  font-size: var(--title-font-size);
+  font-weight: 600;
 }
 
 .primary-title {
-    font-size: 3rem;
-    background: var(--background-primary);
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
+  font-size: 3rem;
+  background: var(--background-primary);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
 
 .section-description {
-    color: var(--text-gray);
-    font-size: 1.3rem;
+  color: var(--text-gray);
+  font-size: 1rem;
 }
 
 .btn-primary {
-    background-color: #f948b2;
-    color: #fff;
-    border: none;
-    border-radius: 3rem;
-    padding: 1rem 1.5rem;
-    text-transform: uppercase;
-    font-weight: 600;
-    margin: 1rem 1rem 0 0;
+  background-color: #f948b2;
+  color: #fff;
+  border: none;
+  border-radius: 3rem;
+  padding: 1rem 1.5rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 1rem 1rem 0 0;
 }
 
 /* shared styles ends */
-
 
 /* nav related styles */
 .nav-container {
@@ -64,11 +63,11 @@
 }
 
 .logo-title {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 .color-pink {
-    color: #f948b2;
+  color: #f948b2;
 }
 
 .logo-img {
@@ -104,46 +103,72 @@
 }
 
 .fa-youtube {
-    color: red;
+  color: red;
 }
 /* nav related styles ends */
 
-
 /* banner related styles */
 .banner-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 1rem 10rem;
-    /* width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 10rem;
+  /* width: 80%;
     margin: 2rem auto; */
-    background-image: url('/images/Group\ 14.png');
-    background-repeat: no-repeat;
-    background-position: left;
-    background-size: 50%;
+  background-image: url("/images/Group\ 14.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 50%;
 }
 
 .banner-img {
-    width: 50%;
+  width: 50%;
 }
 
 .banner-second-title {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 .banner-title {
-    font-size: 5.9rem;
-    margin-bottom: 1rem;
+  font-size: 5.9rem;
+  margin-bottom: 1rem;
 }
 
 .banner-list {
-    list-style-type: none;
-    color: var(--text-gray);
-    margin: 0.5rem 0;
-    font-weight: 600;
+  list-style-type: none;
+  color: var(--text-gray);
+  margin: 0.5rem 0;
+  font-weight: 600;
 }
 
 .btn-blue {
-    background-color: #4EC5F7;
+  background-color: #4ec5f7;
 }
 /* banner related styles ends */
 
+/* gamer section related styles */
+.gamer-section-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin: 1rem auto;
+}
+
+.gamer-section-img {
+  width: 62%;
+}
+
+.gamer-section-content {
+  text-align: right;
+}
+
+.btn-gamer {
+  margin: 1rem 0;
+}
+
+.tagline-p,
+.tagline-h {
+  color: var(--text-gray);
+  font-size: 1.5rem;
+}
+/* gamer section related styles ends */
