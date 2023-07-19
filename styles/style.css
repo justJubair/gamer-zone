@@ -168,8 +168,6 @@
   align-items: center;
   justify-content: space-between;
   padding: 1rem 10rem;
-  /* width: 80%;
-    margin: 2rem auto; */
   background-image: url("/images/Group\ 14.png");
   background-repeat: no-repeat;
   background-position: left;
@@ -263,7 +261,6 @@
 
 .card-img {
   width: 100%;
-  display: block;
 }
 
 .game-desc {
