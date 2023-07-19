@@ -172,3 +172,37 @@
   font-size: 1.5rem;
 }
 /* gamer section related styles ends */
+
+/* online section related styles */
+.online-section-container {
+  width: 80%;
+  margin: 5rem auto;
+}
+
+.online-title,
+.small-desc {
+  text-align: center;
+  color: var(--text-gray);
+}
+
+.small-desc {
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
+}
+
+.card-container {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+}
+
+.card-img {
+  width: 100%;
+}
+
+.game-desc {
+  text-align: left;
+  font-weight: 600;
+}
+/* online section related styles ends */
