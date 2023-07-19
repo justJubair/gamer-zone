@@ -245,4 +245,18 @@
 .badge-img {
   width: 28%;
 }
+
+.play-section-two {
+  flex-direction: row-reverse;
+  margin-top: 10rem
+}
+
+.play-section-two-content {
+  text-align: left;
+  width: 33%;
+}
+
+.badge-two {
+  margin: -10rem 38rem 0 0;
+}
 /* play instantly section related styles ends */
