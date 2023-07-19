@@ -206,3 +206,43 @@
   font-weight: 600;
 }
 /* online section related styles ends */
+
+
+/* play instantly section related styles */
+.play-section-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 80%;
+  margin: 2rem auto;
+}
+
+.play-img {
+  width: 40%;
+}
+
+.play-title {
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+
+.play-content-container {
+  text-align: right;
+  width: 30%;
+}
+
+.text-pink {
+  color: #f948b2;
+}
+
+.badge-img-container {
+  display: flex;
+  justify-content:end;
+  position: relative;
+  margin: -10rem 34rem 0 0;
+}
+
+.badge-img {
+  width: 28%;
+}
+/* play instantly section related styles ends */
