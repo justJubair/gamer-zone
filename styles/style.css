@@ -316,7 +316,7 @@
   gap: 0.5rem;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 5rem 7rem;
+  padding: 5rem 7rem 5rem 10rem;
 }
 
 .icon-box {
@@ -337,3 +337,66 @@
 }
 /* game icon related styles ends */
 
+/* footer related styles */
+.footer-img {
+  width: 70px;
+}
+
+.footer-logo {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 3rem;
+}
+
+.footer-title {
+  font-size: 1.8rem;
+}
+
+.footer-container {
+  text-align: center;
+  background-color: #0B0223;
+  color: #fff;
+  padding: 1.5rem
+
+}
+
+.footer-item-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  font-size: 1rem;
+  margin: 3rem 0;
+}
+
+.footer-icon-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.footer-icon {
+  font-size: 1.7rem;
+}
+
+.fb {
+  color: skyblue;
+}
+
+.footer-legal-info-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin: 3.5rem 0 1.5rem 0;
+  color: rgba(255, 255, 255, 0.60);
+}
+
+
+.footer-note {
+  color: rgba(255, 255, 255, 0.60);
+  font-size: 0.7rem;
+}
+/* footer related styles ends */

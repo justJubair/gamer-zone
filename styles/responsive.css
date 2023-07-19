@@ -159,6 +159,11 @@
   .icon-img {
     width: 30%;
   }
+
+  .footer-item-container, .footer-icon-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
   
 }
 /* Responsive layout for medium devices: tablet */
