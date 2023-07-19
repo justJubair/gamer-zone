@@ -93,7 +93,7 @@
 }
 
 .footer-icon:hover {
-  color: var(--text-gray);
+  color: gray;
   cursor: pointer;
 }
 /* shared hover styles ends */
